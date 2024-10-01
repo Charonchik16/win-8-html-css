@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font: 18px sans-serif;
+    color: #dedede;
+}   
+.bg {
+    height: 650px;
+    padding: 50px 0px 50px 30px;
+    background-color: #000000;
+}
+h1, h3 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    margin: 0;
+}
+h1 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+    text-align: right;
+}
+header {
+    font-size: 0;
+    margin: 0 30px 30px 0;
+}
+main {
+    height: 600px;
+    font-size: 0;
+    overflow-x: auto;
+}
+.scroll {
+    width: 3000px;
+    padding-right: 50px;
+}
+.smallbox {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.middlebox {
+    width: 210px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.bigbox {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+.mr0 {
+    margin-right: 0;
+}
+.mb0 {
+    margin-bottom: 0;
+}
+.column {
+
+    height: 500px;
+    width: 210px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    
+}
+.boxes {
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    margin-right: 40px;
+}
+.pink *:not(.column) {
+    background: rgb(255, 0, 221);
+}
+.orange *:not(.column) {
+    background: #f30;
+}
+.yellow *:not(.column) {
+    background: #fc0;
+}
+.green *:not(.column) {
+    background: #0c0;
+}
+.sea *:not(.column) {
+    background: #0c9;
+}
+.blue *:not(.column) {
+    background: #06c;
+}
+.purple *:not(.column) {
+    background: #66c;
+}
+.litepurple *:not(.column) {
+    background: #63c;
+}
+.red *:not(.column) {
+    background: rgb(56, 2, 2);
+}
